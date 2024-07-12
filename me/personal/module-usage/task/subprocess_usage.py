@@ -44,10 +44,11 @@ def main():
 
 
 
-    """
+    """ 
         check_call method
     """
-    print("\n \n  ###############    using check_call() method   ###############    \n \n")
+    print("\n \n  ###############"
+          "    using check_call() method   ###############    \n \n")
     res = subprocess.check_call(["echo", "hello how are you from check_call() method"], shell=True)  # using the check_call() function
     print("returncode ::: " , res)
 
